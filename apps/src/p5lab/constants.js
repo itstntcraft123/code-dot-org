@@ -15,10 +15,10 @@ export const P5LabType = utils.makeEnum('GAMELAB', 'SPRITELAB', 'POETRY');
 export const CURRENT_ANIMATION_TYPE = utils.makeEnum('default', 'background');
 
 /** @const {number} */
-export const APP_WIDTH = 400;
+export const APP_WIDTH = 1920;
 
 /** @const {number} */
-export const APP_HEIGHT = 400;
+export const APP_HEIGHT = 1080;
 
 /**
  * DataURL for a 1x1 transparent gif image.
