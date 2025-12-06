@@ -1,7 +1,7 @@
 const minX = 20;
-const maxX = 400 - minX;
+const maxX = 1920 - minX;
 const minY = 35;
-const maxY = 400 - 40;
+const maxY = 1080 - 40;
 
 /**
  * Given a group of sprites, arrange all sprites of this type in a particular
