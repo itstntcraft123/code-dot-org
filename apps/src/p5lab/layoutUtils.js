@@ -143,7 +143,7 @@ function createRow(group, yLocation) {
   let count = group.length;
   for (let i = 0; i < count; i++) {
     const sprite = group[i];
-    sprite.x = (i + 1) * (400 / (count + 1));
+    sprite.x = (i + 1) * (1920 / (count + 1));
     sprite.y = yLocation;
   }
 }
@@ -159,6 +159,6 @@ function createColumn(group, xLocation) {
   for (let i = 0; i < count; i++) {
     const sprite = group[i];
     sprite.x = xLocation;
-    sprite.y = (i + 1) * (400 / (count + 1));
+    sprite.y = (i + 1) * (1080 / (count + 1));
   }
 }
