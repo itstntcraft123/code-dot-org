@@ -45,11 +45,11 @@ export default class GridOverlay extends React.Component {
         <text x={5} y={15}>
           (0,0)
         </text>
-        <text x={5} y={390}>
-          (0,400)
+        <text x={5} y={1070}>
+          (0,1080)
         </text>
-        <text x={345} y={15}>
-          (400,0)
+        <text x={1865} y={15}>
+          (1920,0)
         </text>
         <line x1={1} y1={400} x2={1} y2={0} style={styles.boldLine} />
         <line x1={100} y1={400} x2={100} y2={0} style={styles.semiBoldLine} />
